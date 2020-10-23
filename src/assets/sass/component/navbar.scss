@@ -1,0 +1,55 @@
+// .uk-navbar {
+//   height: 100px;
+// }
+.uk-navbar-container {
+  border-bottom: 1px solid #eaeaeade;
+}
+// .tm-page :not(.uk-sticky-below) > .uk-navbar-container {
+//   padding-top: 10px;
+//   padding-bottom: 10px;
+// }
+.uk-navbar-nav {
+  & > li {
+    position: relative;
+    & > a {
+      font-size: 12px;
+      line-height: 80px;
+      letter-spacing: 0.6px;
+      font-weight: 600;
+      position: relative;
+      transition: all 0.1 ease-in-out;
+    //   color: #fff;
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        height: 2px;
+        background-color: transparent;
+        transition: 0.25s ease-in-out;
+        transition-property: background-color, border-color, box-shadow, height, right;
+        left: 20px;
+        right: calc(102% - 20px);
+      }
+      &.uk-icon{
+        svg{
+          color: red !important;
+        }
+      }
+    }
+    &:hover {
+      & a::before {
+        right: 20px;
+        background-color: $global-primary-background;
+      }
+    }
+  }
+
+  &.uk-active {
+    height: 2px;
+  }
+}
+.uk-navbar-dropbar {
+  background-image: linear-gradient(to top, #ddd, transparent 1px);
+}

@@ -1,0 +1,220 @@
+.uk-divider-small:after {
+  border-top-width: 4px;
+  border-top-color: $global-primary-background !important;
+}
+.uk-heading-small {
+  font-size: 34px;
+  line-height: 42.5px;
+  letter-spacing: -1.02px;
+  font-weight: 800;
+  font-family: "Raleway";
+  text-transform: uppercase;
+  @media screen and (min-width: $breakpoint-medium) {
+    font-size: 60px;
+    line-height: 75px;
+    letter-spacing: -1.8px;
+  }
+}
+p {
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 400;
+  @media screen and (min-width: $breakpoint-medium) {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+#section-1 {
+  h2 {
+    font-size: 30px;
+    line-height: 30px;
+    font-family: "Raleway";
+    letter-spacing: -1px;
+    font-weight: 800;
+    text-transform: uppercase;
+    @media screen and (min-width: $breakpoint-medium) {
+      font-size: 100px;
+      line-height: 100px;
+      letter-spacing: -4px;
+    }
+  }
+  h2.uk-heading-large {
+    font-size: 30px;
+    line-height: 30px;
+    font-family: "Raleway";
+    letter-spacing: -1px;
+    font-weight: 800;
+    text-transform: uppercase;
+    @media screen and (min-width: $breakpoint-medium) {
+      font-size: 80px;
+      line-height: 80px;
+      letter-spacing: -4px;
+    }
+  }
+  .uk-h4 {
+    font-size: 9px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: "Poppins";
+    @media screen and (min-width: $breakpoint-medium) {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+  .uk-text-primary {
+    color: $global-primary-background !important;
+  }
+  .uk-animation-scale-up {
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+}
+#section-3 {
+  .uk-divider-small {
+    &:after {
+      width: 30px;
+      transition: 3s;
+      border-top-color: #fff !important;
+      border-top-width: 2px;
+    }
+  }
+  .uk-icon {
+    color: #f5f5f5;
+    &:hover {
+      color: $global-primary-background;
+    }
+  }
+}
+#section-2 {
+  h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: -0.2px;
+    font-family: "Poppins";
+    margin: 0 !important;
+  }
+  .uk-panel {
+    // font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: "Poppins";
+    // margin: 10px 20px;
+  }
+}
+#section-4 {
+  .counter {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-transform: uppercase;
+  }
+}
+#section-5 {
+  h2.uk-h2 {
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: -0.3px;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0 !important;
+    span {
+      color: $global-primary-background !important;
+    }
+  }
+  .uk-text-muted {
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+#section-7 {
+  h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: -0.2px;
+    font-family: "Poppins";
+    margin: 0 !important;
+  }
+  .uk-text-primary {
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-family: "Poppins";
+  }
+}
+#section-8 {
+  img {
+    max-height: 25px;
+  }
+  h3.uk-h3 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: -0.18px;
+    font-family: "Poppins";
+  }
+  span.uk-h5 {
+    font-size: 14.5px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: "Poppins";
+    margin: 0px 0px 20px;
+  }
+  p {
+    span {
+      &.uk-text-italic {
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+// .uk-text-background {
+//   font-size: 64px;
+//   line-height: 76.8px;
+//   font-weight: 600;
+//   background-color: #ec2178;
+//   color: transparent !important;
+//   background-image: linear-gradient(
+//     150deg,
+//     #2f3b8a 0,
+//     #60165e 20%,
+//     #de2867 70%,
+//     #f4d000 100%
+//   );
+//   @media screen and (max-width: $breakpoint-medium) {
+//     font-size: 46.2px;
+//     line-height: 55.44px;
+//   }
+// }
+// .uk-subnav > * > :first-child {
+//   color: $base-selection-color;
+//   text-transform: capitalize;
+//   font-size: 16px;
+//   line-height: 24px;
+//   &:hover {
+//     color: $global-primary-background;
+//   }
+// }
+
+// .uk-divider-small::after {
+//   border-top: 2px solid $global-primary-background;
+// }
+// .uk-icon-link {
+//   color: $base-selection-color;
+//   &:hover {
+//     color: $global-primary-background;
+//   }
+// }

@@ -1,0 +1,29 @@
+@mixin hook-button-text() {
+  position: relative;
+  font-size: 12;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+//   font-family: $base-heading-font-family;
+  span{
+      &.uk-icon{
+        transition: all .5s;
+          background: $global-primary-background;
+          border-radius: 500px;
+          color: #fff;
+        //   font-size: 10px;
+        margin-bottom: 30px;
+      }
+  }
+
+}
+
+@mixin hook-button-text-hover() {
+   color: rgba(49,49,49,0.5);
+  span{
+      &.uk-icon{
+         transform: translate(50%, 0%);
+         background: #000;
+      }
+  }
+}

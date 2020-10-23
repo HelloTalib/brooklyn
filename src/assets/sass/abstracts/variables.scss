@@ -1,0 +1,61 @@
+// ===========================
+//GLOBAL SETTINGS
+// ===========================
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:ital,wght@0,800;1,700&display=swap");
+$global-font-family: "Poppins", sans-serif;
+$global-font-size: 14px;
+// $base-body-font-weight: 400;
+$global-line-height: 1.75;
+
+// ===========================
+//COLOR & BACKGROUND
+// ===========================
+$global-color: #333333;
+// $global-background: #fcfcfc;
+// $global-primary-color: #fddf00;
+$global-primary-background:#FEBE00;
+$global-secondary-background: #010101;
+// $icon-button-background:red;
+// $global-border-width: 200px;
+// $global-muted-color: #fddf00;
+
+// ===========================
+//LINK
+// ===========================
+$global-link-color: $global-primary-background;
+$base-link-hover-color: $global-secondary-background;
+$base-link-hover-text-decoration: none;
+
+// ===========================
+//BORDER
+// ===========================
+// $heading-bullet-border: $global-primary-background;
+// $global-border: $global-primary-background;
+
+// ===========================
+//SELECTION
+// ===========================
+$base-selection-color: #ffffff;
+$base-selection-background: rgba(255, 191, 0, 1);
+
+// ===========================
+//HEADING
+// ===========================
+$base-heading-font-family: "Raleway", sans-serif;
+// $base-heading-font-weight: 500;
+// $base-heading-color: #4e4b4b;
+// $heading-line-width:200px;
+// $heading-xlarge-font-size-l: 114px;
+// $heading-xlarge-font-size-m: 114px;
+// $heading-xlarge-font-size-s: 114px;
+
+// ===========================
+//CONTAINER
+// ===========================
+$container-large-max-width: 1330px;
+
+// ===========================
+//OFFCANVAS
+// ===========================
+// $offcanvas-bar-background: #fff;
+$global-margin:15px;
